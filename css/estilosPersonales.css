@@ -1,0 +1,13 @@
+/*Estilo para añadir el apuntados a los enlaces*/
+.puntero{
+	cursor: pointer;
+}
+
+.noPuntos{
+	list-style-type: none;
+}
+
+body{
+	background-image: url("img/pokeWall.jpg");
+}
+
