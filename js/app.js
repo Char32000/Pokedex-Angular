@@ -13,7 +13,7 @@
         	Parte encargada de extraer el json de los datos y almacenarlos para utilizar
         	en una tabla 
         */
-        $http.get('http://pokeapi.co/api/v2/pokedex/2').
+        $http.get('https://pokeapi.co/api/v2/pokedex/2').
         success(function(data) {
             console.info("Datos extraidos correctamente" + data);
 
