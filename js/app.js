@@ -27,7 +27,7 @@
         */
         $scope.unPokemon = function(valor) {
 
-            var url = 'http://pokeapi.co/api/v2/pokemon/';
+            var url = 'https://pokeapi.co/api/v2/pokemon/';
             url += valor;
 
             //tomamos el valor del id para hacer una llamada al api y rgresar un json
